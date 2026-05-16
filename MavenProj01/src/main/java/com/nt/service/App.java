@@ -17,6 +17,11 @@ public class App {
 	public int div(int x, int y) {
 		return x/y;
 	}
+	
+	public String reverse(String name) {
+		StringBuilder sb=new StringBuilder(name);
+		return sb.reverse().toString();
+	}
     public static void main(String[] args) {
         App app=new App();
         System.out.println("sum is :: "+app.sum(10, 20));
